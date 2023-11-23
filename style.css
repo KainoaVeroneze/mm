@@ -1,21 +1,32 @@
-* {
-margin: 0;
-padding: 0;
+.oss{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100px;
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.img{
+    width: 100px;
+    align-items: center;
+    margin-top: 10px;
+}
+h2{
+    text-align: center;
+}
+.flex-container1{
+    width: 100px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    left: 50px;
 
 }
 
-.menu {
-height: 100px;
-background-color: blue;
-color: white;
-display: flex;
-justify-content: space-around;
-padding: 10px;
-margin: auto;
-list-style: none;
-
-}
-
-.menu-item {
-    padding: 10px;
-}
